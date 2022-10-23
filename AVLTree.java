@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class AVLTree<T extends Comparable<T>>{
+public class AVLTree<T extends Comparable<T>> implements AVL<T>{
     private Node<T> root;
     private ArrayList<T> list = new ArrayList<>();
 
